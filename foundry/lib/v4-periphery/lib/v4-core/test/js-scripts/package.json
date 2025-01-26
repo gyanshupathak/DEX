@@ -28,7 +28,7 @@
     "typescript": "^3.7.3"
   },
   "scripts": {
-    "build": "npm i && node build.js && rm -rf node_modules",
+    "build": "node api.js && npm i && node build.js && rm -rf node_modules",
     "forge-test-getSqrtPriceAtTick": "node dist/getSqrtPriceAtTick.js",
     "forge-test-getTickAtSqrtPrice": "node dist/getTickAtSqrtPrice.js",
     "forge-test-getModifyLiquidityResult": "node dist/getModifyLiquidityResult.js"
